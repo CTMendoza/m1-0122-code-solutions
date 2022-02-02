@@ -1,0 +1,20 @@
+tr:nth-child(even) {
+  background-color: #ced4da;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+#buttonsize {
+  width: 200px;
+  height: 80px;
+  text-align: center;
+  font-size: 30px;
+}
