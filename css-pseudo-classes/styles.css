@@ -1,4 +1,4 @@
-.greybackground {
+tr:nth-child(even) {
   background-color: #ced4da;
 }
 
