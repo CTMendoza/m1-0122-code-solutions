@@ -1,0 +1,9 @@
+h1,
+h2{
+ font-family: 'Supermercado One', cursive;
+}
+
+p.ubuntu {
+  font-family: 'Ubuntu Mono', monospace;
+  line-height: 1.5em ;
+}
