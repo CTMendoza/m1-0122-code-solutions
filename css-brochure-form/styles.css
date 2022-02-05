@@ -12,8 +12,11 @@ fieldset {
 }
 
 fieldset > input {
-  padding-top: 10px;
-  padding-right: 500px;
+  margin-top: 10px;
+  padding: 5px 500px 5px 20px;
+  border-color: #ebebeb;
+  border-radius: 4px;
+  font-size: 120%;
   font-family: "Brandon Grotesque", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -23,14 +26,36 @@ fieldset > input {
 div.hiring > select {
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-right: 530px;
+  padding-right: 580px;
   background-color: #ebebeb;
-  border-radius: 3px;
+  border-radius: 4px;
+  border-color: #ecedee;
+  font-size: 120%;
+  font-family: "Brandon Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  src: url("BrandonGrotesque-Regular.woff2") format("woff2");
+}
+
+label {
+  font-weight: bold;
+  font-family: "Brandon Grotesque", sans-serif;
+  font-style: normal;
+  src: url("BrandonGrotesque-Regular.woff2") format("woff2");
+}
+
+fieldset > div {
+  margin-top: 10px;
+  font-weight: bold;
+  font-family: "Brandon Grotesque", sans-serif;
+  font-style: normal;
+  src: url("BrandonGrotesque-Regular.woff2") format("woff2");
 }
 
 body:nth-child(2) {
   width: 600px;
   margin: 0 auto;
+  justify-content: space-evenly;
 }
 
 div:nth-child(9) {
@@ -38,13 +63,17 @@ div:nth-child(9) {
 }
 
 .bttn {
+  margin-top: 10px;
   border-radius: 20px;
   background-color: #ff5400;
   color: #ebebeb;
-  border-color: #ff5400;
+  border: none;
+  border-color: none;
+  font-size: 105%;
   font-family: AtlasGrotesk, sans-serif;
   font-style: normal;
-  font-weight: 300;
+  font-weight: bold;
   src: url("AtlasGrotesk-Light-Web.woff2") format("woff2");
   padding: 10px 20px;
+}
 }
