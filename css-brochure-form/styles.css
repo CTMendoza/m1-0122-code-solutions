@@ -1,0 +1,50 @@
+div > h1 {
+  text-align: center;
+  font-family: "Brandon Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url("BrandonGrotesque-Medium.woff2") format("woff2");
+  color: #ff5400;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset > input {
+  padding-top: 10px;
+  padding-right: 500px;
+  font-family: "Brandon Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  src: url("BrandonGrotesque-Regular.woff2") format("woff2");
+}
+
+div.hiring > select {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 530px;
+  background-color: #ebebeb;
+  border-radius: 3px;
+}
+
+body:nth-child(2) {
+  width: 600px;
+  margin: 0 auto;
+}
+
+div:nth-child(9) {
+  text-align: right;
+}
+
+.bttn {
+  border-radius: 20px;
+  background-color: #ff5400;
+  color: #ebebeb;
+  border-color: #ff5400;
+  font-family: AtlasGrotesk, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  src: url("AtlasGrotesk-Light-Web.woff2") format("woff2");
+  padding: 10px 20px;
+}
