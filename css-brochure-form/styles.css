@@ -11,6 +11,10 @@ fieldset {
   border: none;
 }
 
+fieldset:nth-child(10) {
+  justify-content: right;
+}
+
 fieldset > input {
   margin-top: 10px;
   padding: 5px 500px 5px 20px;
@@ -24,9 +28,7 @@ fieldset > input {
 }
 
 div.hiring > select {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 580px;
+  padding: 10px 580px 10px 15px;
   background-color: #ebebeb;
   border-radius: 4px;
   border-color: #ecedee;
@@ -55,10 +57,9 @@ fieldset > div {
 body:nth-child(2) {
   width: 600px;
   margin: 0 auto;
-  justify-content: space-evenly;
 }
 
-div:nth-child(9) {
+div:nth-child(10) {
   text-align: right;
 }
 
