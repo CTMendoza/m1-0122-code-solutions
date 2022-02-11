@@ -17,6 +17,7 @@
 
 .column-one-half {
   display: flex;
+  width: auto;
 }
 
 .column-margin {
