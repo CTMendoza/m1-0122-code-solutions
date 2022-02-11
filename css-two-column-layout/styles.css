@@ -1,19 +1,12 @@
 .container {
-  max-width: 1346px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.heading-row {
+.row {
   display: flex;
-}
-
-.row-second {
-  display: flex;
-}
-
-.row-third {
-  display: flex;
+  justify-content: space-evenly;
 }
 
 .row-button {
@@ -22,7 +15,7 @@
   margin-top: 26px;
 }
 
-.column-one-third {
+.column-one-half {
   display: flex;
 }
 
@@ -30,25 +23,25 @@
   margin-left: 296.32px;
 }
 
-.text-align-center {
+.column-whole {
   line-height: 30px;
-  text-align: center;
+  margin-bottom: 27px;
 }
 
 #intro {
-  width: 1394px;
-  padding-left: 245px;
-  padding-right: 255px;
+  text-align: center;
+  padding-left: 26px;
+  padding-right: 17px;
 }
 
 section {
-  text-align: left;
-  width: 353.75px;
+  width: 376.75px;
   line-height: 35px;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 70px;
+  text-align: center;
   font-family: Karla, sans-serif;
   font-style: normal;
   font-weight: 700;
