@@ -17,7 +17,7 @@
   margin-left: 113px;
   margin-right: 110px;
   margin-top: 77px;
-  background-image: url (images/hero.jpg);
+  background-image: url("images/hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
