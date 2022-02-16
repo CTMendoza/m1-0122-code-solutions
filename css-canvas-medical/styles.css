@@ -50,6 +50,7 @@
 }
 
 .column-info {
+  color: white;
   display: flex;
   flex-direction: column;
   flex-basis: calc(100% / 3);
@@ -80,19 +81,21 @@
   justify-content: space-between;
 }
 
-a {
+a,
+p,
+button {
   text-decoration: none;
-  font-family: "Tiempos Headline", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  src: url("TiemposHeadline-Regular.woff2") format("woff2");
-}
-
-h1.canvas {
   font-family: Avenir, sans-serif;
   font-style: normal;
   font-weight: 500;
   src: url("avenir.woff2") format("woff2");
+}
+
+.canvas {
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  src: url("TiemposHeadline-Regular.woff2") format("woff2");
 }
 
 header {
@@ -133,7 +136,7 @@ h3 {
   text-align: center;
 }
 
-h3.canvas {
+.text-align-left {
   text-align: left;
 }
 
