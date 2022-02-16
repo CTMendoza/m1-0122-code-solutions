@@ -1,0 +1,23 @@
+.container {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row-heading {
+  display: flex;
+  justify-content: center;
+}
+
+.row-cellphones {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column-cellphones {
+  flex-basis: 25%;
+}
+
+img {
+  width: 100%;
+}
