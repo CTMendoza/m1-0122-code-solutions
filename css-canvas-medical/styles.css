@@ -136,6 +136,13 @@ h3 {
   text-align: center;
 }
 
+h5 {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url("avenir.woff2") format("woff2");
+}
+
 .text-align-left {
   text-align: left;
 }
@@ -156,4 +163,19 @@ img.logo-info {
   width: 128px;
   padding-top: 24px;
   padding-bottom: 42px;
+}
+
+.font-color-white {
+  color: white;
+}
+
+.row-privacy-contact {
+  display: flex;
+}
+
+.column-privacy-contact {
+  display: flex;
+  flex-basis: 20%;
+  justify-content: space-between;
+  margin-left: 96px;
 }
