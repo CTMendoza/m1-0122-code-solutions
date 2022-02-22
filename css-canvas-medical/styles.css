@@ -20,12 +20,14 @@
   background-image: url("images/hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .row-preference {
   display: flex;
   justify-content: center;
   margin-top: 72px;
+  background-color: #f2f2f2;
 }
 
 .row-locations {
@@ -33,6 +35,7 @@
   justify-content: space-around;
   padding-top: 40px;
   padding-bottom: 40px;
+  background-color: #f2f2f2;
 }
 
 .row-ready {
@@ -47,6 +50,7 @@
   margin-top: 70px;
   padding-top: 70px;
   background-color: #595959;
+  padding-bottom: 70px;
 }
 
 .column-info {
@@ -82,8 +86,7 @@
 }
 
 a,
-p,
-button {
+p, {
   text-decoration: none;
   font-family: Avenir, sans-serif;
   font-style: normal;
@@ -99,7 +102,7 @@ button {
 }
 
 header {
-  border-bottom-style: solid;
+  border-bottom-style: inset;
   border-top: none;
   border-left: none;
   border-right: none;
@@ -118,6 +121,10 @@ p.summary {
   text-align: left;
   line-height: 30px;
   width: 587px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url("avenir.woff2") format("woff2");
 }
 
 p.preference {
@@ -178,4 +185,68 @@ img.logo-info {
   flex-basis: 20%;
   justify-content: space-between;
   margin-left: 96px;
+}
+
+.a-tag-font-color {
+  color: #c5c3c6;
+}
+
+.a-tag-text-decoration {
+  text-decoration: none;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url("avenir.woff2") format("woff2");
+}
+
+.button-style {
+  background-color: #002855;
+  color: white;
+  text-decoration: none;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url("avenir.woff2") format("woff2");
+  height: 50px;
+  width: 170px;
+  border-radius: 5px;
+  border: none;
+}
+
+.heading-button-style {
+  background-color: #002855;
+  color: white;
+  text-decoration: none;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url("avenir.woff2") format("woff2");
+  height: 50px;
+  width: 114px;
+  border-radius: 5px;
+  border: none;
+}
+
+.a-tag-font-avenir {
+  text-decoration: none;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url("avenir.woff2") format("woff2");
+}
+
+.image-overlay {
+  background: linear-gradient(transparent, rgb(0 0 0 / 45%));
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.p-font-style {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url("avenir.woff2") format("woff2");
+  color: #6c757d;
 }
