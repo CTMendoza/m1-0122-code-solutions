@@ -25,6 +25,11 @@ var library = [
   {
     title: 'Discworld',
     author: 'Terry Pratchett'
+  },
+
+  {
+    title: 'One Piece',
+    author: 'Eichoro Oda'
   }
 ];
 
@@ -45,7 +50,7 @@ library.push(js);
 
 library.unshift(css);
 
-library.splice(1, 0);
+library.splice(1, 1);
 
 var fullName = 'Chris Mendoza';
 
