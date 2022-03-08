@@ -1,0 +1,14 @@
+console.log('hello, world');
+var headerOne = document.querySelector('h1');
+console.log(headerOne);
+console.dir(headerOne);
+var idExplain = document.querySelector('#explanation');
+console.log(idExplain);
+console.dir(idExplain);
+var classHint = document.querySelector('.hint');
+console.log(classHint);
+console.dir(classHint);
+var pElement = document.querySelectorAll('p');
+console.log(pElement);
+var classExample = document.querySelectorAll('.example-link');
+console.log(classExample);
