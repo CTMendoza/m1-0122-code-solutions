@@ -1,9 +1,10 @@
 /* exported numVowels */
 function numVowels(string) {
-  var count = 0;
-  for (var i = 0; i < string.length; i++) {
-    if (string.includes('a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U')) {
-      count++;
+  var countVowels = 0;
+  var vowels = ['a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U'];
+  for (var char of string) {
+    if (vowels.includes(char)) {
+      countVowels++;
     }
-  } return count;
+  } return countVowels;
 }
