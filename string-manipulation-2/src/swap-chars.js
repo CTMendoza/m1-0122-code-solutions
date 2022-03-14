@@ -4,11 +4,11 @@ function swapChars(firstIndex, secondIndex, string) {
   var firstCharacter = string[firstIndex];
   var secondCharacter = string[secondIndex];
   for (var i = 0; i < string.length; i++) {
-    if (string.indexOf(string[i]) === firstIndex) {
+    if (string.indexOf(string[i], i) === firstIndex) {
       newString += secondCharacter;
-    } else if (string.indexOf(string[i]) === secondIndex) {
+    } else if (string.indexOf(string[i], i) === secondIndex) {
       newString += firstCharacter;
-    } else if (string.indexOf(string[i]) !== firstCharacter && string.indexOf(string[i]) !== secondCharacter) {
+    } else if (string.indexOf(string[i]) !== firstCharacter || string.indexOf(string[i]) !== secondCharacter) {
       newString += string[i];
     }
   }
