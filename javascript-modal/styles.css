@@ -12,6 +12,9 @@ body {
   flex-direction: column;
   justify-content: center;
   background-color: white;
+  align-items: center;
+  padding: 5%;
+  border-radius: 5px;
 }
 
 .row-modal {
@@ -31,15 +34,33 @@ body {
 }
 
 .blue-button {
-  background-color: blue;
+  background-color: #858ae3;
   color: white;
   height: 50px;
   width: 250px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 5px 10px rgb(85 84 84);
 }
 
 .orange-button {
-  background-color: orange;
+  background-color: #ef7a85;
   color: white;
-  border-radius: 10%;
+  border-radius: 5px;
+  width: 35%;
   border: none;
+  padding: 5%;
+  margin: 5%;
+  font-size: 115%;
+  box-shadow: 0 5px 10px rgb(85 84 84);
+}
+
+.font {
+  font-family: Roboto, sans-serif;
+  font-size: 125%;
+}
+
+.font-bold {
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
 }
